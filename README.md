@@ -1,8 +1,6 @@
 # Raytracer
 
-Ray tracing is a technique used to generate realistic digital images by simulating the inverse
-path of light. The goal of this project is to create a program able to generate an image from a file describing
-the scene.
+Ray tracing is a technique used to generate realistic digital images by simulating the inverse path of light. The goal of this project is to create a program able to generate an image from a file describing the scene.
 
 ## Getting started
 
