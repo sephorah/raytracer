@@ -80,7 +80,7 @@ Currently, the plugins systems is used for primitives and lights.
 
 ### Add new primitives
 
-To add new primitives, first you will need to write your source code. Check out the include/Primitives/IPrimitive.hpp file to see how primitives are implemented.
+To add new primitives, first you will need to write your source code. Check out the `include/Primitives/IPrimitive.hpp` file to see how primitives are implemented.
 
 Then you will need to compile your source code into a shared library (.so file).
 Go to the PluginsMakefile (which is the Makefile that compiles the plugins), and add a new rule.
@@ -110,7 +110,7 @@ torus: $(TORUS_OBJ)
 
 ```
 
-Then, you will need to add your new primitive into the include/Factories/PrimitiveFactory.hpp. Simple as that.
+Then, you will need to add your new primitive into the `include/Factories/PrimitiveFactory.hpp`. Simple as that.
 
 ## Developers
 
