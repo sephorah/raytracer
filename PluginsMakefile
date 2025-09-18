@@ -107,17 +107,14 @@ clean:
 	$(RM) $(AMBIENT_LIGHT_OBJ)
 	$(RM) $(LIGHT_DIRECTION_OBJ)
 	$(RM) $(LIGHT_POINT_OBJ)
-	$(RM) $(CAMERA_OBJ)
 	$(RM) $(TRANS_OBJ)
 
 fclean: clean
 	$(RM) plugins/primitives/libsphere.so
 	$(RM) plugins/primitives/libplane.so
-	$(RM) plugins/primitives/libambient.so
-	$(RM) plugins/primitives/libdirectionnal.so
-	$(RM) plugins/primitives/libpoint.so
-	$(RM) plugins/lights/libcamera.so
-	$(RM) plugins/lights/libtranslation.so
+	$(RM) plugins/lights/libambient.so
+	$(RM) plugins/lights/libdirectionnal.so
+	$(RM) plugins/lights/libpoint.so
 	$(RM) plugins/transformations/libtranslation.so
 
-.PHONY: fclean clean sphere
+.PHONY: fclean clean sphere plane ambient_light light_direction light_point translation plugins primitives lights 

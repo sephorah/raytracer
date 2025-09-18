@@ -16,6 +16,10 @@ USAGE: ./raytracer <SCENE_FILE>
 	SCENE_FILE: scene configuration
 ```
 
+⚠️ The SFML display doesn't work completely.
+
+You can view the `output.ppm` image using a file explorer.
+
 ## Create a scene
 
 To create a scene, create a configuration file (file with the .cfg extension), following this template:
